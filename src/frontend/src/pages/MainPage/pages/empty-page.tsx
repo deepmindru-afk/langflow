@@ -15,7 +15,7 @@ import { useFolderStore } from "@/stores/foldersStore";
 import { formatNumber } from "@/utils/utils";
 import useFileDrop from "../hooks/use-on-file-drop";
 
-const EMPTY_PAGE_TITLE = "Welcome to Portflow";
+const EMPTY_PAGE_TITLE = "Welcome to Portal flows";
 const EMPTY_PAGE_DESCRIPTION = "Your new favorite way to ship Agents";
 const EMPTY_PAGE_GITHUB_DESCRIPTION =
   "Follow development, star the repo, and shape the future.";
