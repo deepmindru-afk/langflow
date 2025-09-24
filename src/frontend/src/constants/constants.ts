@@ -241,13 +241,13 @@ export const DESCRIPTIONS: string[] = [
   "Your Hub for Text Generation.",
   "Promptly Ingenious!",
   "Building Linguistic Labyrinths.",
-  "Langflow: Create, Chain, Communicate.",
+  "Portal flows: Create, Chain, Communicate.",
   "Connect the Dots, Craft Language.",
   "Interactive Language Weaving.",
   "Generate, Innovate, Communicate.",
   "Conversation Catalyst Engine.",
   "Language Chainlink Master.",
-  "Design Dialogues with Langflow.",
+  "Design Dialogues with Portal flows.",
   "Nurture NLP Nodes Here.",
   "Conversational Cartography Unlocked.",
   "Design, Develop, Dialogize.",
@@ -730,7 +730,7 @@ export const MY_COLLECTION_DESC =
 export const STORE_DESC = "Explore community-shared flows and components.";
 export const STORE_TITLE = "Portal flows Store";
 export const NO_API_KEY = "You don't have an API key.";
-export const INSERT_API_KEY = "Insert your Langflow API key.";
+export const INSERT_API_KEY = "Insert your Portal flows API key.";
 export const INVALID_API_KEY = "Your API key is not valid. ";
 export const CREATE_API_KEY = `Don't have an API key? Sign up at`;
 export const STATUS_BUILD = "Build to validate status.";
