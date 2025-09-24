@@ -15,7 +15,7 @@ import { useFolderStore } from "@/stores/foldersStore";
 import { formatNumber } from "@/utils/utils";
 import useFileDrop from "../hooks/use-on-file-drop";
 
-const EMPTY_PAGE_TITLE = "Welcome to Langflow";
+const EMPTY_PAGE_TITLE = "Welcome to Portflow";
 const EMPTY_PAGE_DESCRIPTION = "Your new favorite way to ship Agents";
 const EMPTY_PAGE_GITHUB_DESCRIPTION =
   "Follow development, star the repo, and shape the future.";
@@ -37,8 +37,8 @@ export const EmptyPageCommunity = ({
   const handleFileDrop = useFileDrop(undefined);
   const folders = useFolderStore((state) => state.folders);
   const userData = useAuthStore(useShallow((state) => state.userData));
-  //const stars: number | undefined = useDarkStore((state) => state.stars);
-  //const discordCount: number = useDarkStore((state) => state.discordCount);
+  const stars: number | undefined = useDarkStore((state) => state.stars);
+  const discordCount: number = useDarkStore((state) => state.discordCount);
   const { mutate: updateUser } = useUpdateUser();
   const { mutate: mutateLoggedUser } = useGetUserData();
 
@@ -100,7 +100,7 @@ export const EmptyPageCommunity = ({
               </span>
             </div>
 
-            {/*<div className="flex w-full max-w-[510px] flex-col gap-7 sm:gap-[29px]">
+            <div className="flex w-full max-w-[510px] flex-col gap-7 sm:gap-[29px]">
               <Button
                 unstyled
                 className="group mx-3 h-[84px] sm:mx-0"
@@ -159,7 +159,7 @@ export const EmptyPageCommunity = ({
                   </div>
                   <ExternalLink className={EXTERNAL_LINK_ICON_CLASS} />
                 </div>
-              </Button>*/}
+              </Button>
 
               <Button
                 variant="default"
