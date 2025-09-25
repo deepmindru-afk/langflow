@@ -17,7 +17,7 @@ from lfx.template.field.base import Output
 class SaveToFileComponent(Component):
     display_name = "Save File"
     description = "Save data to a local file in the selected format."
-    documentation: str = "https://docs.langflow.org/components-processing#save-file"
+    documentation: str = "https://www.portalos.ru/components-processing#save-file"
     icon = "save"
     name = "SaveToFile"
 

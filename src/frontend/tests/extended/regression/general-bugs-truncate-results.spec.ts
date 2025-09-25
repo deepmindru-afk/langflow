@@ -27,7 +27,7 @@ test.skip(
 
     await page
       .getByTestId("inputlist_str_urls_0")
-      .fill("https://docs.langflow.org/");
+      .fill("https://www.portalos.ru/");
 
     await page
       .getByTestId("inputlist_str_urls_1")

@@ -9,7 +9,7 @@ from lfx.template.utils import update_template_values
 class PromptComponent(Component):
     display_name: str = "Prompt Template"
     description: str = "Create a prompt template with dynamic variables."
-    documentation: str = "https://docs.langflow.org/components-prompts"
+    documentation: str = "https://www.portalos.ru/components-prompts"
     icon = "braces"
     trace_type = "prompt"
     name = "Prompt Template"
