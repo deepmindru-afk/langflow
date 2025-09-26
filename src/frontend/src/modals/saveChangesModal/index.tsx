@@ -59,7 +59,7 @@ export function SaveChangesModal({
             <a
               target="_blank"
               className="text-secondary underline"
-              href="https://www.portalos.ru/configuration-auto-save"
+              href="https://docs.langflow.org/configuration-auto-save"
               rel="noopener"
             >
               Enable auto-saving

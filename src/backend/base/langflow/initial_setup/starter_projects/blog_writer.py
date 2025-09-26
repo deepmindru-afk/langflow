@@ -20,7 +20,7 @@ def blog_writer_graph(template: str | None = None):
 Blog:
 """)
     url_component = URLComponent()
-    url_component.set(urls=["https://www.portalos.ru/", "https://www.portalos.ru/"])
+    url_component.set(urls=["https://langflow.org/", "https://docs.langflow.org/"])
     parse_data_component = ParserComponent()
     parse_data_component.set(input_data=url_component.fetch_content)
 

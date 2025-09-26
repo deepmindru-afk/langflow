@@ -134,7 +134,7 @@ def loop_flow():
     """Complete loop flow that processes multiple URLs through a loop."""
     # Create URL component to fetch content from multiple sources
     url_component = URLComponent()
-    url_component.set(urls=["https://www.portalos.ru/"])
+    url_component.set(urls=["https://docs.langflow.org/"])
 
     # Create SplitText component to chunk the content
     split_text_component = SplitTextComponent()

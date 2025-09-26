@@ -20,7 +20,7 @@ from lfx.schema.dotdict import dotdict
 class EmbeddingModelComponent(LCEmbeddingsModel):
     display_name = "Embedding Model"
     description = "Generate embeddings using a specified provider."
-    documentation: str = "https://www.portalos.ru/components-embedding-models"
+    documentation: str = "https://docs.langflow.org/components-embedding-models"
     icon = "binary"
     name = "EmbeddingModel"
     category = "models"

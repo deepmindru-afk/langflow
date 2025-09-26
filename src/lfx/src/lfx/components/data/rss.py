@@ -11,7 +11,7 @@ from lfx.schema import DataFrame
 class RSSReaderComponent(Component):
     display_name = "RSS Reader"
     description = "Fetches and parses an RSS feed."
-    documentation: str = "https://www.portalos.ru/components-data#rss-reader"
+    documentation: str = "https://docs.langflow.org/components-data#rss-reader"
     icon = "rss"
     name = "RSSReaderSimple"
 

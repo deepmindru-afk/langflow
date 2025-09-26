@@ -236,7 +236,7 @@ test(
         await expect(page.getByText("setup guide")).toBeVisible();
         await expect(page.getByText("setup guide")).toHaveAttribute(
           "href",
-          "https://www.portalos.ru/mcp-server#connect-clients-to-use-the-servers-actions",
+          "https://docs.langflow.org/mcp-server#connect-clients-to-use-the-servers-actions",
         );
 
         await awaitBootstrapTest(page);
