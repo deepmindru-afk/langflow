@@ -1917,7 +1917,7 @@
             "last_updated": "2025-07-18T17:42:31.005Z",
             "legacy": false,
             "metadata": {
-              "code_hash": "ccf23ef1345b",
+              "code_hash": "81467945381f",
               "dependencies": {
                 "dependencies": [
                   {
@@ -2084,7 +2084,7 @@
                 "show": true,
                 "title_case": false,
                 "type": "str",
-                "value": ""
+                "value": "OPENAI_API_KEY"
               },
               "code": {
                 "advanced": true,
@@ -2647,7 +2647,7 @@
                 "show": true,
                 "title_case": false,
                 "type": "str",
-                "value": ""
+                "value": "OPENAI_API_KEY"
               },
               "code": {
                 "advanced": true,
@@ -2969,7 +2969,7 @@
                 "show": true,
                 "title_case": false,
                 "type": "str",
-                "value": ""
+                "value": "OPENAI_API_KEY"
               },
               "code": {
                 "advanced": true,
